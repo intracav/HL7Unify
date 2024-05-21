@@ -1,0 +1,12 @@
+name: medlang-api
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  # - fastapi
+  - uvicorn
+  - pydantic
+  - transformers
+  # - sentence-transformers
+  - openai
+  - python-dotenv

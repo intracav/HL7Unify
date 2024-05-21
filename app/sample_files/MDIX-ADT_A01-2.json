@@ -1,0 +1,133 @@
+{
+  "resourceType": "Bundle",
+  "fhir_comments": [
+    "Generated using MDMI 1.5.0-SNAPSHOT  2020-05-18 20:17"
+  ],
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Composition",
+        "type": {
+          "coding": [
+            {
+              "code": "A01"
+            }
+          ]
+        },
+        "date": "2020-05-08T13:06:43"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "MessageHeader",
+        "eventCoding": {
+          "code": "5"
+        },
+        "enterer": {
+          "display": "SIMHOSP"
+        },
+        "author": {
+          "display": "SFAC"
+        },
+        "source": {
+          "software": "SIMHOSP",
+          "version": "2.3",
+          "endpoint": "RAPP"
+        },
+        "reason": {
+          "coding": [
+            {
+              "system": "ADT",
+              "code": "A01"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "2590157853",
+        "identifier": [
+          {
+            "value": "2590157853"
+          },
+          {
+            "value": "2478684691",
+            "assigner": {
+              "display": "NHSNBR"
+            }
+          },
+          {
+            "value": "2590157853",
+            "assigner": {
+              "display": "SIMULATOR MRN"
+            }
+          }
+        ],
+        "name": [
+          {
+            "family": "Esterkin",
+            "given": [
+              "AKI Scenario 6"
+            ],
+            "prefix": [
+              "Miss"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "value": "020 5368 1665",
+            "use": "home"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1989-01-18T00:00:00",
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "170 Juice Place"
+            ],
+            "city": "London",
+            "postalCode": "RW21 6KC",
+            "country": "GBR"
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "identifier": [
+          {
+            "value": "6145914547062969032"
+          }
+        ],
+        "type": [
+          {
+            "coding": [
+              {
+                "code": "I"
+              }
+            ]
+          }
+        ],
+        "subject": {
+          "reference": "2590157853"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "C006"
+            }
+          }
+        ],
+        "period": {
+          "start": "2020-05-08T13:06:43"
+        }
+      }
+    }
+  ]
+}

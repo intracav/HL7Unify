@@ -1,0 +1,6 @@
+tiktoken
+psycopg2-binary
+langchain
+pgvector
+fastapi
+sentence-transformers
